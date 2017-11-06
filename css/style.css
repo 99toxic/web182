@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Main CSS */
+
+body {
+	width: 70%;
+	margin: 0 auto;
+}
+h1, h2 {
+	text-align: center;
+	color: #0A0D0D;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+.assignments {
+	padding-bottom: 50px;
+}
+
+.assignments p a {
+	margin-top: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	color: #0A0D0D;
+}
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+/* End Main CSS */
+
+/* asgn01 Styles */
+
+#asgn01 table {
+	width: 40%;
+	height: 400px;
+	margin: 0 auto;
+}
+#asgn01 table td {
+	background: #4783CF;
+	padding: 0 50px;
+	border-radius: 3px;
+	color: #FFF;
+	font-size: 20px;
+}
+#asgn01 table input[type=text], table input[type=password] {
+	width: 200px;
+	height: 20px;
+	border-radius: 5px;
+}
+#asgn01 table input[type=submit], input[type=reset] {
+	width: 150px;
+	height: 40px;
+	border-radius: 50px;
+	margin: 20px;
+}
+/* End asgn01 Styles */
+
+/* asgn02 Styles */
+
+#asgn02 p {
+	display: inline-block;
+	padding: 10px;
+}
+/* End asgn02 Styles */
+
+/* Card Styles */
+
+#cards {
+	background: #000;
+}
+#cards h1, #cards h2 {
+	color: #fff;
+}
+
+/* End Card Styles */

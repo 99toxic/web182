@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web 182 | asgn01</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body id="asgn01">
+	
+<div id="wrapper">
+
+	<header>
+		<h2>Assignment 1</h2>
+	</header>
+	
+	<form action="asgn01.php" method="post">
+		<table>
+			<tr>
+				<td>
+					<p>First Name</p> 
+				</td>
+				<td>
+					<input type="text" name="FirstName" placeholder="first name">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<p>Favorite Programming Language</p>
+				</td>
+				<td>
+					<input type="radio" name="language" value="PHP" checked>PHP<br>
+					<input type="radio" name="language" value="JavaScript">JavaScript<br>
+					<input type="radio" name="language" value="Rust">Rust
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<p>Types of Music</p>
+				</td>
+				<td>
+					<input type="checkbox" name="music[]" value="Rock">Rock<br>
+					<input type="checkbox" name="music[]" value="Jaz">Jaz<br>
+					<input type="checkbox" name="music[]" value="Blues">Blues
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<p>Password</p>
+				</td>
+				<td>
+					<input type="password" name="password">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<input type="submit" value="submit">
+				</td>
+				<td>
+					<input type="reset" value="Reset">
+				</td>
+			</tr>
+						
+		</table>
+		
+	</form>
+
+</div>
+	
+</body>
+</html>
